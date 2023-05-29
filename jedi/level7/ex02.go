@@ -7,6 +7,7 @@ type person struct {
 }
 
 func changeName(p *person, newName string) {
+	// p.name = newName
 	(*p).name = newName
 }
 
