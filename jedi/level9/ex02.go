@@ -16,7 +16,7 @@ type human interface {
 }
 
 func saySomething(h human, word string) {
-	h.speak(word)a
+	h.speak(word)
 }
 
 func main() {
